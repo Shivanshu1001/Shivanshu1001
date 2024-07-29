@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <nav>
+        <button class="one">
+            <a href="https://shivanshum@gmail.com">Gmail</a>
+        </button>
+             <!-- <button class="two">
+            <a target="_blank" href="https://www.youtube.com">YouTube Channel</a>
+        </button> -->
+    </nav> 
+    <div id="wrapper">
+    <h1>Number guessing game</h1>
+    <p class="p1">Try and guess the random number between 1 and 100</p>
+    <p class="p2">You have 10 attempts to guess the right number</p>
+    <br>
+    <form class="form">
+    <label for="guessField" id="guess" style="color: red;">Guess a number</label>
+    <br>
+    <input type="text" id="guessField" class="guessField">
+    <br>
+    <input type="submit" id="submit" value="Submit Guess" class="guessSubmit">
+    </form>
+
+    <div class="resultParas">
+        <p>Previous Guesses : <span class="guesses"></span></p>
+        <p>Guesses Remaining : <span class="lastResult">10</span></p>
+        <p class="lowOrHi"></p>
+    </div>
+</div>
+</body>
+<script src="scriptt.js"></script>
+</html>

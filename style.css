@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin-left: 450px;
+    font-size: 40px;
+    color: aquamarine;
+
+}
+p {
+    margin-left: 510px;
+    font-size: 25px;
+}
+label {
+    margin-left: 460px;
+    font-size: 50px;
+}
+input {
+    margin-top: 10px;
+    margin-left: 500px;
+    font-size: 30px;
+}
+.one {
+    margin-left: 600px;
+    font-size: 25px;
+}
+
+nav {
+    height: 50px;
+    background-color: pink;
+    
+}
+#guessField {
+    border-radius: 10px;
+    font-size: 50px;
+    width: 240px;
+    margin-top: 20px;
+    margin-left: 500px;
+}
+#submit {
+    margin-top: 20px;
+        margin-left: 520px;
+        background-color :rgb(225, 255, 0);
+        border: 2px solid pink;
+        border-radius: 10px;
+}
+.p1 {
+    margin-left: 380px;
+
+}
+.p2 {
+    margin-left: 400px;
+}
+#newGame {
+    font-size: 30px;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    background-color: blueviolet;
+}
